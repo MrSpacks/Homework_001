@@ -56,13 +56,14 @@ h1 {
   padding: 10px;
   transition: 0.3s;
 }
-.nav_link:hover{
-        background-color: rgb(231, 137,	159	);      
+.nav_link:hover {
+  background-color: rgb(231, 137, 159);
 }
 /* To Do list styles */
 
 .ToDo_list {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 70px;
 }
 .ToDo_input {
   display: flex;
@@ -175,17 +176,16 @@ input {
   background-color: #bbb;
 }
 /* footer */
-footer{
+footer {
   height: 50px;
   background-color: #2c97be;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
-.footer_text{
+.footer_text {
   margin-left: 30px;
   height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: aliceblue;
-
 }
