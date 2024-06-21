@@ -6,8 +6,9 @@
 body{
     margin: 0 auto;
 }
-li{
+ul{
     list-style: none;
+    padding: 0;
   }
 main{
     margin: 30px;
@@ -61,23 +62,15 @@ h1 {
 }
 /* Task section styles */
 
-.task_main{
-    background-color: rgb(231, 137,	159	);
-}
-.task_items{
-    padding: 12px;
-}
-.task_item {
-    color: white;
+.conteiner{
+    letter-spacing: 1px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-    letter-spacing: 2px;
-    background-color: rgb(184,	76,	99);
-    margin: 10px;
-    padding: 10px 15px;
 }
-.text_item{
-    padding: 10px;
-    background-color: rgb(139, 36, 58);
+.silver{
+    color: rgb(137, 135, 147);
 }
-
+span{
+    color: rgb(57, 42, 146);
+}

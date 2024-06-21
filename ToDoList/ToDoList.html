@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ToDoList.css">
+    <title>Homework Petukhov</title>
+</head>
+
+<body>
+    <header>
+        <img src="../img/Logo.jpeg" alt="logo" />
+        <h1>Домашняя работа № 1 Сергей Петухов</h1>
+    </header>
+    <main>
+        <nav class="navigation">
+            <div class="nav_items">
+                <div><a class="nav_link" href="../index.html">Shoping list</a></div>
+                <div><a class="nav_link" href="./ToDoList.html">To Do List</a></div>
+                <div><a class="nav_link" href="../Tag/Tag.html">Tags HTML</a></div>
+            </div>
+        </nav>
+        <section>
+            <h2 class="title">Задание 2</h2>
+            <p class="text">список задач</p>
+            <p class="text">P.S. JavaScript код позаимвствован с сайта: www.w3schools.com как и задание &#128521</p>
+            <div class="ToDo_list">
+                <div id="myDIV" class="ToDo_title">
+                    <h2>My To Do List</h2>
+                    <div class="ToDo_input">
+                        <input type="text" id="myInput" placeholder="Title...">
+                        <span onclick="newElement()" class="addBtn">Add</span>
+                    </div>
+                </div>
+                <ul id="myUL">
+                    <li>Hit the gym</li>
+                    <li class="checked">Pay bills</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li class="checked">Read a book</li>
+                    <li>Eat dinner</li>
+                    <li>Buy apples</li>
+                    <li>Meet George</li>
+                    <li>Feed the cat</li>
+                    <li class="checked">Write the letter</li>
+                    <li>Run 1 km</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="../app.js"></script>
+</body>
+
+</html>

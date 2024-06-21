@@ -12,64 +12,37 @@
       <h1>Домашняя работа № 1 Сергей Петухов</h1>
     </header>
     <main>
+      <nav class="navigation">
+        <ul class="nav_items">
+          <li><a class="nav_link" href="./index.html">Shoping list</a></li>
+          <li><a class="nav_link" href="./ToDoList/ToDoList.html">To Do List</a></li>
+          <li><a class="nav_link" href="./Tag/Tag.html">Tags HTML</a></li>
+        </ul>
+      </nav>
       <section>
         <h2 class="title">Задание 1</h2>
         <p class="text">список фруктов</p>
-        <!-- Этот нумированный список сделал на div по двум причинам, не разобрался как стилизовать маркеры - числа и потому что стили этого списка переплетались со стилями списка задач в To Do list -->
         <div class="task_main">
-            <div class="task_items">
-                <div class="task_item">1.
+            <ul class="task_items">
+                <li class="task_item">1.
                     <span class="text_item">Apple</span>
-                </div>
-                <div class="task_item">2.
+                </li>
+                <li class="task_item">2.
                     <span class="text_item">Orange</span>
-                </div>
-                <div class="task_item">3.
+                </li>
+                <li class="task_item">3.
                     <span class="text_item">Pineapple</span>
-                </div>
-                <div class="task_item">4.
+                </li>
+                <li class="task_item">4.
                     <span class="text_item">Pear</span>
-                </div>
-                <div class="task_item">5.
+                </li>
+                <li class="task_item">5.
                     <span class="text_item">Cherry</span>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
-      </section>
-      <section>
-        <h2 class="title">Задание 2</h2>
-        <p class="text">список задач</p>
-        <p class="text">P.S. JavaScript код позаимвствован с сайта: www.w3schools.com как и задание &#128521</p>
-        <div class="ToDo_list">
-            <div id="myDIV" class="ToDo_title">
-                <h2>My To Do List</h2>
-                <div class="ToDo_input">
-                    <input type="text" id="myInput" placeholder="Title...">
-                <span onclick="newElement()" class="addBtn">Add</span>
-                </div>
-              </div> 
-              <ul id="myUL">
-                <li>Hit the gym</li>
-                <li class="checked">Pay bills</li>
-                <li>Meet George</li>
-                <li>Buy eggs</li>
-                <li class="checked">Read a book</li>
-                <li>Eat dinner</li>
-                <li>Buy apples</li>
-                <li>Meet George</li>
-                <li>Feed the cat</li>
-                <li class="checked">Write the letter</li>
-                <li>Run 1 km</li>
-              </ul>
-        </div>
-      </section>
-      <section>
-        <h2 class="title">Задание 3</h2>
-        <p class="text">список </p>
-        <div></div>
       </section>
     </main>
     <footer></footer>
-    <script src="./app.js"></script>
   </body>
 </html>
