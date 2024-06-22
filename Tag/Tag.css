@@ -39,6 +39,9 @@ h1 {
   h1 {
     font-size: 1.5em;
   }
+  .nav_items {
+    display: grid;
+  }
 }
 /* navigation style */
 .nav_items {
