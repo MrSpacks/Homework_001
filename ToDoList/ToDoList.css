@@ -2,6 +2,10 @@
 * {
   box-sizing: border-box;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0 auto;
@@ -72,11 +76,6 @@ h1 {
   display: flex;
 }
 
-/* Remove margins and padding from the list */
-ul {
-  margin: 0;
-  padding: 0;
-}
 
 /* Style the list items */
 ul li {
@@ -87,38 +86,30 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
 
-  /* make the list items unselectable */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 ul li::before {
-  content: url(./img/icons/unchecked_16.png);
+  content: url(../img/icons/unchecked_16.png);
   position: absolute;
   top: 14px;
   left: 50px;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
+/* zebra-stripes*/
 ul li:nth-child(odd) {
   background: rgb(150, 193, 209);
 }
 
-/* Darker background-color on hover */
 ul li:hover {
   background: #ddd;
 }
 
-/* When clicked on, add a background color and strike out text */
 ul li.checked {
   background: rgb(219, 219, 219);
   text-decoration: line-through;
 }
 
-/* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: url(./img/icons/checked_16.png);
+  content: url(../img/icons/checked_16.png);
   position: absolute;
   top: 14px;
   left: 50px;
@@ -143,7 +134,6 @@ ul li.checked::before {
   color: black;
 }
 
-/* Clear floats after the header */
 .header:after {
   content: "";
   display: table;
